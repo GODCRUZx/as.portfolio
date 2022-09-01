@@ -52,11 +52,21 @@ nav a {
   display: flex;
   gap: 3rem;
   padding: 0 12rem;
-  margin-top: 4rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background: linear-gradient(rgba(150, 115, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./media/background.jpg) center/cover fixed no-repeat;
+  height: 100vh;
   padding-top: 3rem;
-  margin-bottom: 3rem;
   padding-bottom: 3rem;
+  color: ghostwhite;
+}
+.about h2 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: blueviolet;
+  font-family: inherit;
+  text-decoration: underline;
 }
 
 .about p {
@@ -64,6 +74,15 @@ nav a {
   border-left: 2px solid;
   padding-left: 2rem;
   margin-top: 2rem;
+}
+.about h5 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: blueviolet;
+  font-family: inherit;
+  text-decoration: underline;
 }
 
 .about img {
@@ -82,10 +101,32 @@ nav a {
   font-family: "Times New Roman", Times, serif;
   margin-bottom: 3rem;
   text-decoration: underline;
+  padding-bottom: 3rem;
 }
 .pros img {
   height: 20rem;
   width: 25rem;
   margin-left: 12rem;
   padding: 2rem;
+}
+.contact {
+  background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./media/runners.jpg) center/cover fixed no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: ghostwhite;
+  font-family: inherit;
+}
+.email {
+  padding-right: 4rem;
+}
+.github {
+  padding-right: 4rem;
+}
+.linkedin {
+  padding-right: 4rem;
 }
