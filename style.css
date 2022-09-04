@@ -52,8 +52,8 @@ nav a {
   display: flex;
   gap: 3rem;
   padding: 0 12rem;
-  background: linear-gradient(rgba(150, 115, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./media/background.jpg) center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./media/mainBcg.jpeg) center/cover fixed no-repeat;
   height: 100vh;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -103,30 +103,56 @@ nav a {
   text-decoration: underline;
   padding-bottom: 3rem;
 }
+.pros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  width: 80%;
+  margin: auto;
+}
+.pros .project {
+  width: 30rem;
+}
 .pros img {
   height: 20rem;
-  width: 25rem;
-  margin-left: 12rem;
-  padding: 2rem;
+  width: 100%;
 }
 .contact {
   background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./media/runners.jpg) center/cover fixed no-repeat;
+    url(./media/mainBcg.jpeg) center/cover fixed no-repeat;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 300;
   color: ghostwhite;
   font-family: inherit;
 }
+.socials {
+  margin-top: 8rem;
+  padding-left: 25rem;
+}
 .email {
   padding-right: 4rem;
+  padding-left: 4rem;
 }
 .github {
   padding-right: 4rem;
 }
 .linkedin {
   padding-right: 4rem;
+}
+.contact h2 {
+  padding-left: 30rem;
+  padding-top: 3rem;
+}
+.contact h4 {
+  text-decoration: underline;
+  padding-left: 35rem;
+  padding-top: 2rem;
+}
+.contact p {
+  padding-left: 28rem;
+  margin-top: 4rem;
+  text-decoration: underline;
 }
